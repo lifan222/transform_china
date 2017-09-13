@@ -1,3 +1,119 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$green : #1EC9AC;
+p {
+    color : $green;
+}
+
+.item {
+    color: white !important;
+    font-size: 16px;
+}
+.right.menu {
+    border: solid 1px #1EC9AC;
+    margin-left: 45px !important;
+    position: relative;
+    left: 91px;
+}
+.green{
+    color:$green !important;
+}
+.home-panel {
+    height: 2000px;
+    background-color: #F0F0F0;
+}
+.text-logo.white-color-text {
+    top: 10px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+.header-panel {
+    position: relative;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    
+}
+.button-field {
+    position: absolute;
+    left: 1215px;
+    top: 32px;
+}
+button.ui.inverted.green.button {
+    border-color: $green !important;
+}
+
+.login-panel {
+    width: 500px;
+    height: 500px;
+    left: 677px;
+    position: absolute;
+    top: 278px;
+    background-color: white;
+}
+
+.component-panel {
+    position: absolute;
+    top: 71px;
+    left: 50px;
+}
+.text-logo-fields {
+    display: flex;
+}
+.log-box {
+    height: 100px;
+    width: 100px;
+    background-color: #1EC9AC;
+    position: absolute;
+    top: 22px;
+    left: 19px;
+}
+.log {
+    font-size: 60px;
+    color: white;
+    position: relative;
+    top: 43px;
+    left: 30px;
+}
+.text-logo {
+    position: relative;
+    left: 94px;
+    top: -23px;
+}
+.ui.radio.checkbox {
+    margin-right: 20px !important;
+}
+
+.text-logo {
+    font-size: 45px;
+    color: #1EC9AC;
+}
+.white-color-text{
+    color:white !important;
+}
+.radio-field{
+    margin-right: 16px;
+}
+
+.input-label {
+    font-size: 15px;
+    color: #BFBFBF;
+    margin-bottom: 8px;
+}
+.input.fields {
+    width: 500px;
+}
+.ui.icon.input {
+    width: 300px;
+}
+button.positive.ui.button {
+    position: absolute;
+    left: 75px;
+    width: 100px;
+    height: 50px;
+    background-color: #1EC9AC;
+    margin: 20px;
+}
